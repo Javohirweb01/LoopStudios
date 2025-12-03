@@ -16,7 +16,7 @@ body {
 /* HEAD_START */
 
 .head {
-    margin: 0;
+    margin: 0 0 100px 0;
     padding: 0;
     background-image: url("../images/head-back.jpg");
     background-repeat: no-repeat;
@@ -25,13 +25,13 @@ body {
 }
 .head_inner {
     margin: 0;
-    padding: 50px 150px;
+    padding: 50px 0px 280px;
 }
 .head_inner_top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 100px 0;
+    margin: 0 0 127px 0;
     padding: 0;
 }
 .head_inner_top_left {
@@ -85,3 +85,52 @@ body {
 }
 
 /* HEAD_END */
+
+
+
+
+
+
+
+
+
+
+/* VR_START */
+
+.vr {
+    margin: 0;
+    padding: 0;
+}
+.vr_inner {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0;
+    padding: 50px 0;
+}
+.vr_inner_left {
+    margin: 0;
+    padding: 0;
+}
+.vr_inner_right {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 600px;
+}
+.vr_inner_title {
+    color: black;
+    font-weight: 200;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.vr_inner_text {
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* VR_END */
